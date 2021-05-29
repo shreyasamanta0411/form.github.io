@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>registration-form</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<script src="reg.js"> </script>
+</head>
+<body>
+	<p id="r"> REGISTRATION FORM </p>
+	<form name="frm1">
+		<p> Enter your name : <input type="text" id="nm" autocomplete="off"> </p> <p1 id=d1></p1>
+		<p> Enter your DOB : <input type="date" id="dt"><p2 id="d2"></p2> </p> 
+		<p> Enter your e-mail : <input type="mail" id="em" autocomplete="off"> <p3 id="d3"></p3></p> 
+		<p> enter your contact number : <input type="tel" id="t" maxlength="10"
+			autocomplete="off"> <p4 id="d4"></p4>
+		</p> 
+		<p> Select your qualification : 
+			<input type="checkbox" name="ug"> Under-grad
+			<input type="checkbox" name="gr"> Graduation
+			<input type="checkbox" name="pg"> Post-graduation
+			<p5 id="d5"></p5>
+		</p> 
+		<p> Enter your gender : 
+		    <input type="radio" name="g"> Male
+		    <input type="radio" name="g"> Female
+		    <p6 id="d6"></p6>
+		</p> 
+		<p> Select your city : 
+		    <select name="city">
+		    	<option value="0">select</option>
+		    	<option value="1">Kolkata</option>
+		        <option value="2">Mumbai</option>
+		    	<option value="3">Delhi</option>
+		    	<option value="4">Bangalore</option>
+		    </select> 
+		    <p7 id="d7"></p7>
+		</p> 
+		<p>Describe Yourself : </p> 
+		    <textarea id="tx" name="dsc" rows="6" cols="50"></textarea>	
+		<p><input type="button" id="b1" onclick="val()" value="ok">
+	</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.h{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 40px;
+	margin: auto;
+	margin-top: 16%;
+	width: 350px;
+	outline: none;
+	background-color: rgb(156, 224, 247);
+	padding: 8px 0px 8px 56px;
+	animation-name: blink;
+    animation-duration: 6s;
+}
+@keyframes blink {
+   0%   {background-color:rgb(156, 224, 247);}
+  25%  {background-color: rgba(252, 252, 71, 0.911);}
+  50%  {background-color: rgb(211, 158, 231);}
+  100% {background-color: rgb(105, 226, 105);}
+}
+body{
+	background-color: rgb(156, 224, 247);
+	animation-name: blink;
+    animation-duration: 6s;
+}
